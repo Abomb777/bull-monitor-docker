@@ -1,0 +1,13 @@
+{
+  "version": "2.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "@aws-sdk/client-ssm": "^3.34.0",
+    "@bull-monitor/express": "^2.1.0",
+    "bull": "^3.22.7",
+    "express": "^4.17.1"
+  }
+}
